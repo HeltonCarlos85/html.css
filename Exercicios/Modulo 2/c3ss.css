@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredericka+the+Great&family=Open+Sans:wght@300&family=Raleway:wght@200&family=Righteous&family=VT323&display=swap');
+
+
+
+
+/*
+
+# =id
+. = class
+: = pseudo-class
+:: = pseudo-elemento
+> = clidrem 
+
+*/
+
+
+body {
+
+  background-image: linear-gradient(to right, #f09022c0, #876445);
+  text-align: justify;
+  text-indent: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'VT323', monospace;
+
+
+
+}
+
+main {
+  background-color: #ffffff;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #37322a;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: #090909f8;
+
+
+}
+
+a:visited {
+
+  color: #e0600a;
+
+}
+
+a:active {
+
+  color: #e0600a;
+
+}
+
+.link::after {
+  content: '[likn]';
+  text-decoration: none;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  color: #876445;
+
+
+}
+
+
+.link {
+  color: #0d28bd;
+
+
+}
+
+.link:visited {
+
+  color: #f6086f;
+
+}
+
+.link:hover {
+
+  background-color: #7fffd4;
+}

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Itim & display = swap');
+@import url('https://fonts.googleapis.com/css2?family= Poiret+One & display = swap');
+@import url('https://fonts.googleapis.com/css2?family= Amatic +SC & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@font-face {
+    font-family: love;
+    src: url(font/love.ttf) format("opentype");
+}
+
+body {
+
+    background-image: linear-gradient(to right, #f09022c0, #876445);
+    text-align: justify;
+    text-indent: 10px;
+
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #37322a;
+
+}
+
+p {
+
+    text-justify: auto;
+    font-family: 'Fredericka the Great', cursive;
+
+    /* shorthand font
+
+   1-font-style: ;
+   2-font-weight: ; 
+   3-font-size: ;
+   4-font-family: ;
+   */
+}
+
+h1 {
+    color: #EEC373;
+    text-align: center;
+    box-shadow: 3px 3px 3px #4a4444;
+    text-decoration: underline;
+    font-family: love;
+
+}
+
+h2 {
+    color: #F4DFBA;
+    font-family: 'Poiret One', cursive;
+}
+
+
+a.lin {
+
+    color: #4a4444;
+}
+
+a.lin:visited {
+
+    color: #f7b276;
+}
+
+a.lin:focus {
+
+
+    background-color: #00ffff;
+}
+
+
+a.lin:hover {
+
+    color: #2b0ee6;
+
+
+}

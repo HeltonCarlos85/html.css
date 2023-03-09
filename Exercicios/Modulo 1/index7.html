@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="caveira.ico" type="image/x-icon">
+
+    <title>imagens em html</title>
+</head>
+
+<body>
+    <h1>imagens dinâmicas</h1>
+    <h2>imagem grande </h2>
+    <picture>
+        <source media="(max-width:390px )" srcset="pasta/mario.jpg" type="image/jpg">
+        <source media="(max-width:500px )" srcset="pasta/img_p.jpg" type="image/jpg" >
+        <source media="(max-width:800px )" srcset="pasta/img_m.jpg" type="image/jpg">
+        <img src="pasta/img_g.jpg" alt="imagem grande">
+        <p>seu navegador não comporta essa imagem</p>
+    </picture> <br>
+    <a href="index4.html" target="_blank " rel="next">link interno </a> <br>
+    <a href="index8.html" target="_self" rel="external">link externo</a>
+
+
+    <h1>audio</h1>
+
+    <audio preload=" metadata " controls autoplay loop>
+        <source src="pasta/14.A Kind Of Magic.mp3" type="audio/mpeg">
+        <source src="pasta/02 Calling Dr. Love.mp3" type="audio/ogg">
+    </audio> <br>
+
+
+
+
+
+
+</body>
+
+</html>

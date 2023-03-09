@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredericka+the+Great&family=Righteous&family=VT323&display=swap');
+
+@font-face {
+    font-family: font1;
+    src: url(font/FONT1.TTF);
+}
+
+body {
+    background-image: linear-gradient(to right, #4eb88c, #75f162);
+}
+
+h1#principal {
+    color: #14114fdd;
+    font-size: 45px;
+}
+
+h2.TITULO {
+
+    color: #7fffd4;
+}
+
+span.TITULO {
+    color: #d54f23;
+}
+
+.TITULO1 {
+    color: rgb(63, 33, 234);
+
+}
+
+
+h1 {
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'VT323', monospace;
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #37322a;
+
+}
+
+.list li {
+    color: #3f21ea;
+    border-bottom: 1px solid #021c04;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.list li:last-child {
+    color: #00ff11;
+    padding-bottom: nome;
+}
+
+.list li:first-child {
+    color: #d54f23
+}
+
+.list ul:nth-child() {
+    color: #00ff11;
+
+
+}
+
+
+/* ultimo da lista  */
+.listi li:last-child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Primeiro da lista */
+.listi li:first-child {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*  even = números pares    /  odd = números ímpares */
+
+/* nth-child = de cima para baixo  */
+.listi li:nth-child(even) {
+
+    background-color: #3f21ea;
+
+}
+
+/* nth-last-of type = de baixo para cima */
+.listi li:nth-last-of-type(2) {
+
+    color: #75f162;
+
+}
+
+.listi li:hover {
+
+    text-decoration: underline;
+}

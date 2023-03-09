@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+div.cl3{
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    text-align: center;
+    border-style: double;
+    display: inline-block;
+
+
+
+}
+div.cl3:hover{
+
+    background-color: blueviolet;
+
+}
+
+div.cl4:hover{
+
+
+    color: rgb(255, 145, 0);
+}
+
+
+div.cl4>a{
+
+display: none;
+
+}
+
+div.cl4:hover>a{
+    display: block;
+    margin: 10px;
+    background-color: aqua;
+
+}
+div.cl4:hover{
+    background-color: aqua;
+    display: block;
+
+}
+div.cl4 a::after {
+
+    content: "";
+    color: black;
+    font-weight: normal;
+}
