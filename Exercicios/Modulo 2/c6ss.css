@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+div.quadrado{
+
+
+height: 200px;
+border: 2px solid black;
+border-radius: 5px;
+margin: 10px;
+background-image: url(imagens/wallpaper003.jpg);
+
+}
+div#k1{
+background-position: left top;
+    
+}
+div#k2{
+    background-position: left center;
+
+
+}
+div#k3{
+    background-position: right bottom;
+
+
+}
+div#k4{
+    background-position: center center;
+
+
+}
