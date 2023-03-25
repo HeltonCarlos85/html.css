@@ -1,8 +1,21 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & family= Dosis & family= Fredericka+the+Great & family= Lobster & family= Open+Sans:wght@ 300 & family= Raleway:wght@200 & family= Righteous & family= Titan+One & family= VT323 & display=swap');
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+
+
+:root {
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', cursive;
+
+}
 
 
 
@@ -43,6 +56,8 @@ header>h1 {
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 5vw;
 
 
 
@@ -51,16 +66,22 @@ header>h1 {
 header>p {
     text-align: center;
     padding-bottom: 50px;
+    font-family: var(--font2);
 
 
 }
 
-body {
+html body {
     width: 600px;
     border-style: groove;
     margin: auto;
+    font-family: var(--font1);
 
 }
+
+
+
+
 
 
 footer {
@@ -72,12 +93,14 @@ footer {
 }
 
 
-section{
+section  {
 
-padding-top: 10vh;
-padding-bottom: 10vh;
-line-height: 2em;
-padding-left: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-family: var(--font2);
+    font-size: 1.5vw;
 
 }
 
@@ -103,9 +126,10 @@ section.img {
 
 }
 
-section.img>p{
+section.img>p {
 
 
     background-color: rgba(0, 0, 0, 0.063);
-    width: 200px;
+    display: inline-block;
+    padding: 5px    ;
 }
