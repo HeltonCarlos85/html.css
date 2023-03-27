@@ -1,9 +1,49 @@
 @charset "utf-8";
 
 
- body h1{
+body h1 {
 
-text-indent: 10px;
-text-transform: uppercase;
+    text-indent: 10px;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+body table {
+
+
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+
+table tr th {
+
+
+    border: 1px solid black;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    vertical-align: sub;
+    padding: 15px;
+
+
+
+}
+
+table tr td {
+
+
+    
+    border: 1px solid black;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+
 
 }
