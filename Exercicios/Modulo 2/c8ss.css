@@ -17,33 +17,40 @@ body table {
 
     border-collapse: collapse;
     margin: auto;
+    width: 600px;
+
+}
+
+thead{
+background-color: rgb(243, 164, 90);
+color: white;
+
+}
+
+tfoot{
+
+    background-color: gray;
+    color: white;
+
+
 
 }
 
 
-table tr th {
-
-
-    border: 1px solid black;
-    width: 70px;
-    height: 60px;
-    text-align: center;
-    vertical-align: sub;
-    padding: 15px;
-
-
-
-}
-
-table tr td {
+table tr ,td ,th{
 
 
     
     border: 1px solid black;
-    width: 70px;
-    height: 60px;
-    text-align: center;
+ 
     padding: 15px;
+    padding: 10px;
 
+
+}
+
+td.num{
+
+text-align: right;
 
 }
