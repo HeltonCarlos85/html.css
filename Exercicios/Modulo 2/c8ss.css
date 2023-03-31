@@ -45,6 +45,7 @@ table tr ,td ,th{
  
     padding: 15px;
     padding: 10px;
+   
 
 
 }
@@ -53,4 +54,18 @@ td.num{
 
 text-align: right;
 
+}
+table caption{
+
+font-size: 1.2em ;
+font-weight: bold;
+color: aqua;
+padding: 10px;
+
+
+}
+table tr:nth-last-child(even){
+
+
+    background-color: aqua;
 }
