@@ -21,13 +21,13 @@ body table {
 
 }
 
-thead{
-background-color: rgb(243, 164, 90);
-color: white;
+thead {
+    background-color: #f3a45a;
+    color: white;
 
 }
 
-tfoot{
+tfoot {
 
     background-color: gray;
     color: white;
@@ -37,35 +37,56 @@ tfoot{
 }
 
 
-table tr ,td ,th{
+table tr,
+td,
+th {
 
 
-    
+
     border: 1px solid black;
- 
+
     padding: 15px;
     padding: 10px;
-   
+
+
+
+}
+
+td.num {
+
+    text-align: right;
+
+}
+
+table caption {
+
+    font-size: 1.2em;
+    font-weight: bold;
+    color: aqua;
+    padding: 10px;
 
 
 }
 
-td.num{
+table tbody>tr:nth-child(even) {
 
-text-align: right;
-
-}
-table caption{
-
-font-size: 1.2em ;
-font-weight: bold;
-color: aqua;
-padding: 10px;
-
+    background-color: #e5e3ed;
 
 }
-table tr:nth-last-child(even){
 
+table tbody>tr:nth-child(odd) {
 
-    background-color: aqua;
+    background-color: #8e999af3;
+
+}
+
+table {
+    position: relative;
+}
+
+table thead>tr>th {
+    position: sticky;
+    top: 0;
+    background-color: #f3a45a;
+
 }
