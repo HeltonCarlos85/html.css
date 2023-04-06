@@ -19,12 +19,13 @@
         html body table {
 
             margin: auto;
-           
+
 
 
         }
 
-        table tr td {
+        table tr td,
+        th {
 
 
             padding: 6px;
@@ -34,23 +35,50 @@
             width: 100px;
             text-align: center;
 
-        }
 
+        }
 
         table {
 
             border-collapse: collapse;
 
+
+        }
+
+
+        .media {
+
+            text-align: left;
+            background-color: #565454;
+            color: white;
+            border-color: black;
+
+
+        }
+
+        .num {
+
+            background-color: #565454;
+            color: white;
+            border-color: black;
+
+
+        }
+
+
+        thead th {
+
+            background-color: #565454;
+            color: white;
+            border-color: black;
+            font-size: 1.2em;           
+
+
         }
     </style>
-
-
-
 </head>
 
 <body>
-
-
     <!-- Anatomia da tabela
 
     table
@@ -61,121 +89,92 @@
         tfoot
             tr,td,th        
 -->
-
     <h1>desafio das tabelas</h1>
 
     <h2>tabela 1</h2>
 
-
     <table>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td rowspan="2">3</td>
-            <td>4</td>
-
-        </tr>
-
-        <tr>
-            <td>5</td>
-            <td>6</td>
-
-            <td>7</td>
 
 
 
-        </tr>
+        <thead>
+            <tr>
+                <th rowspan="2">Area </th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">média</th>
+            </tr>
+            <tr>
+                <th>nota1</th>
+                <th>nota2</th>
+            </tr>
 
-        <tr>
-            <td colspan="3">8</td>
+        </thead>
 
-            <td>9</td>
+        <tbody>
 
+            <tr>
+                <th rowspan="5">Exatas</th>
 
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
-        </tr>
-        <tr>
-            <td rowspan="2">10</td>
-            <td colspan="2">11</td>
-            <td>12</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
-        </tr>
-        <tr>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de exatas</th>
 
+                <td class="num">0.0</td>
 
-        </tr>
+            </tr>
+            <tr>
+                <th rowspan="3">Humanas</th>
 
+            </tr>
+            <tr>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
 
+            </tr>
+            <th colspan="4" class="media">Média de exatas</th>
+            <td class="num">0.0</td>
 
-
-
+        </tbody>
 
     </table>
-    <br>
-
-
-    <table>
-        <tr>
-            <td colspan="4" >a</td>
-          
-            <td rowspan="4" >b</td>
-           
-        </tr>
-        <tr>
-            <td rowspan="4" >c</td>
-           
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-        </tr>
-        <tr>
-            
-           
-            <td>g</td>
-            <td>h</td>
-            <td>i</td>
-        </tr>
-        <tr>
-            
-          
-            <td>j</td>
-            <td>l</td>
-            <td>m</td>
-        </tr>
-        <tr>
-           
-            <td colspan="4">n</td>
-            
-        </tr>
-
-
-
-
-
-
-
-
-
-
-
-    </table>
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
