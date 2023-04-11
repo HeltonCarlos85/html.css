@@ -1,2 +1,50 @@
 @charset "UTF-8";
 
+*{
+
+margin: 0%;
+padding: 0%;
+border: 0px;
+
+
+}
+body{
+
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+color:white
+
+}
+ul li{
+list-style: none;
+
+}
+
+ ul li.li1{
+
+    width: 300px;
+    height: 100px;
+    background-color: #00ffff;
+}
+ul li.li2{
+
+    width: 300px;
+    height: 100px;
+    background-color: #0004ff;
+}
+ul li.li3{
+
+    width: 300px;
+    height: 100px;
+    background-color: #ff6200;
+} 
+
+
+ ul.lista li{
+
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+
+}
