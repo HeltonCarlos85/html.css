@@ -1,49 +1,52 @@
 @charset "UTF-8";
 
-*{
+* {
 
-margin: 0%;
-padding: 0%;
-border: 0px;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
 
-
-}
-body{
-
-font-family:Georgia, 'Times New Roman', Times, serif;
-font-size: 25px;
-color:white
-
-}
-ul li{
-list-style: none;
 
 }
 
- ul li.li1{
+body {
 
-    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li.li1 {
+
     height: 100px;
     background-color: #00ffff;
 }
-ul li.li2{
 
-    width: 300px;
+ul li.li2 {
     height: 100px;
     background-color: #0004ff;
+    margin-left: auto;
 }
-ul li.li3{
 
-    width: 300px;
+ul li.li3 {
+
     height: 100px;
     background-color: #ff6200;
-} 
+    margin: auto;
+}
 
 
- ul.lista li{
+ul.lista li {
 
-    display: inline-block;
-    width: 20%;
+    display: block;
+    width: 33.333%;
     height: 150px;
     text-align: center;
 

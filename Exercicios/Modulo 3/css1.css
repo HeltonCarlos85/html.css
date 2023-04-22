@@ -18,13 +18,20 @@ body h3 {
     text-transform: lowercase;
     color: white;
 
+
+}
+
+div {
+
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
 }
 
 
 body div.um {
     position: absolute;
     right: 0px;
-
     width: 200px;
     height: 200px;
     background: #00ffff;
@@ -38,7 +45,7 @@ body div.dois {
     left: 50%;
     top: 50%;
     /* transform: translateX(-50%) translateY(-50%); */
-    transform: translate(-50%  ,-50%);
+    transform: translate(-50%,-50%);
     width: 200px;
     height: 200px;
     background: #0800ff;
@@ -57,10 +64,10 @@ body div.tres {
 }
 
 body div.quatro {
-    position: absolute  ;
-    transform: translate(-50% ,-50%);
+    position: absolute;
     left: 50%;
     top: 50%;
+    transform: translate(-50%,-50%);
     width: 80px;
     height: 80px;
     background: #00ff1a;
