@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+
+
+
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+ul.todos {
+    text-align: center;
+
+}
+
+ul.todos li {
+    list-style: none;
+    color: #ffffff;
+
+
+}
+
+ul.todos li.item {
+
+    width: 25%;
+    height: 150px;
+    display: inline-block;
+
+
+}
+
+
+
+ul li.item1 {
+    background-color: #00ffff;
+    float: left;
+    
+    
+
+}
+
+li.item2 {
+    background-color: #0000ff;
+    margin: auto;
+
+}
+
+li.item3 {
+    background-color: #2ae76f;
+    float: right;
+
+
+}
