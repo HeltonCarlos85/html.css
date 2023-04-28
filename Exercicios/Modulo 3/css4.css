@@ -14,24 +14,29 @@ body {
 
 }
 
-ul.todos {
-    text-align: center;
+ul.todos{
 
+    text-align: justify;
 }
+
 
 ul.todos li {
+    display: inline-block;
     list-style: none;
     color: #ffffff;
-
+    width: 25%;
+    height: 150px;
 
 }
 
-ul.todos li.item {
 
-    width: 25%;
-    height: 150px;
-    display: inline-block;
 
+
+ul.todos::after{
+content: '';
+opacity: 0%;
+display: inline-block;
+width: 100%;
 
 }
 
@@ -39,21 +44,16 @@ ul.todos li.item {
 
 ul li.item1 {
     background-color: #00ffff;
-    float: left;
-    
-    
 
 }
 
 li.item2 {
     background-color: #0000ff;
-    margin: auto;
 
 }
 
 li.item3 {
     background-color: #2ae76f;
-    float: right;
 
 
 }
