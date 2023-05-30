@@ -14,12 +14,8 @@ body {
 ul li {
 
     list-style: none;
-    display: inline-block;
+    display: inline;
     font-size: 45px;
-    width: 350px;
-    height: 200px;
-
-
 
 
 }
