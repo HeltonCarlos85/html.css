@@ -24,17 +24,19 @@ body {
 ul li.li1 {
 
     background-color: #00ffff;
+    margin-left: auto;
 }
 
 ul li.li2 {
     background-color: #0004ff;
-    margin-left: auto;
+
 }
 
 ul li.li3 {
 
     background-color: #ff6200;
-    margin:auto;
+    margin: auto;
+   
 }
 
 
