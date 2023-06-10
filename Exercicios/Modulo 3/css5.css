@@ -4,7 +4,9 @@
 
 article {
 
-  overflow: hidden;
+    overflow: hidden;
+    background-color: aqua;
+
 
 }
 
@@ -16,21 +18,21 @@ div.item {
     text-align: center;
     line-height: 200px;
     font-size: 25px;
-   
+
 
 
 }
 
 
 p.text {
-clear: both;
-
+    clear: both;
 }
+
 
 
 div.div1 {
     background-color: #0022ff;
-    float:right;
+    float: left;
 
 
 
@@ -38,7 +40,7 @@ div.div1 {
 
 div.div2 {
     background-color: #ff0040;
-    float:right;
+    float: left;
 
 
 }
